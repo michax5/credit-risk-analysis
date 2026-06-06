@@ -52,3 +52,38 @@ Może być wykorzystany do:
 
 
 ## 📂 Struktura projektu
+
+
+## 📸 Wizualizacje
+
+### Dashboard Power BI
+
+dashboard_credit_risk.png (Image: dashboard klientów banku z KPI i zadłużeniem)
+
+Dashboard przedstawia analizę klientów banku, w tym:
+- liczba klientów
+- liczba spłaconych i niespłaconych pożyczek
+- poziom zadłużenia
+- procent klientów zalegających ze spłatą
+
+Pozwala to na szybkie zrozumienie sytuacji finansowej klientów
+oraz skali ryzyka kredytowego.
+
+---
+
+### 🧠 Model – ocena skuteczności
+
+model_evaluation-Logistic Regression.png (Image: krzywa ROC i macierz pomyłek modelu)
+
+Model predykcyjny przewiduje, czy klient spłaci pożyczkę.
+
+Zastosowane metryki:
+- krzywa ROC (AUC ≈ 0.62)
+- macierz pomyłek
+- accuracy, precision, recall
+
+Wyniki wskazują, że model jest w stanie wykrywać część klientów zagrożonych niespłaceniem (recall ~53%),
+jednak kosztem większej liczby fałszywych alarmów (niska precision).
+
+Model może być użyteczny jako narzędzie wspierające decyzje,
+ale wymaga dalszej optymalizacji.
