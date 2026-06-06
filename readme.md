@@ -8,6 +8,7 @@ który przewiduje, czy klient spłaci pożyczkę, czy istnieje ryzyko niewypłac
 
 Projekt łączy analizę danych, uczenie maszynowe oraz wizualizację w Power BI.
 
+Dane pochodzą ze strony https://www.kaggle.com/datasets/marceloventura/the-berka-dataset?resource=download
 ---
 
 ## 🎯 Cel projektu
